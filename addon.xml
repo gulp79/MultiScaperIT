@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="metadata.multiscraper.it"
+       name="MultiScraperIT"
+       version="0.1"
+       provider-name="Gulp">
+  <requires>
+    <import addon="xbmc.metadata" version="1.0"/>
+    <import addon="metadata.common.themoviedb.org" version="1.0.7"/>
+    <import addon="metadata.common.imdb.com" version="2.1.2"/>
+    <import addon="metadata.common.movieposterdb.com" version="1.0.4"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies"
+             language="it"
+             library="multiscraperit.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">multiscraper for italian movies</summary>
+    <summary lang="it">Scraper multisito per contenuti italiani</summary>
+    <description lang="en">Download Movie informations from www.comingsoon.it and www.filmup.it</description>
+    <description lang="it">Scarica le informazioni dei film da www.comingsoon.it e www.filmup.it</description>
+    <platform>all</platform>
+  </extension>
+</addon>

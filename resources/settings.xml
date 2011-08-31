@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<setting label="30010" type="bool" id="comingsoon" default="false" enable="eq(3,false)"/>
+	<setting label="30051" type="bool" id="year" default="false" enable="!eq(-1,false)"/>
+	<setting type="sep"/>
+	<setting label="30011" type="bool" id="filmup" default="true" enable="eq(-3,false)"/>
+	<setting type="sep"/>
+	<setting label="30054" type="bool" id="PosterTMDB" default="true"/>
+    <setting label="30055" type="bool" id="FanartTMDB" default="true"/>
+	<setting label="30056" type="bool" id="IMPAWARDS" default="false"/>
+	<setting label="30057" type="bool" id="Movieposterdb" default="false"/>
+</settings>
