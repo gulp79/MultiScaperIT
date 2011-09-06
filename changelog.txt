@@ -1,0 +1,3 @@
+Changelog:
+05/09/2011 - Tuning of year & originaltitle regexp
+01/09/2011 - Initial commit & testing on forum
